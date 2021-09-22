@@ -22,5 +22,7 @@ jobs:
       - name: Parse list
         run: node index.js packs
 
-      - name: Print list
-        run: cat list.json
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          default_author: github_actions
