@@ -51,6 +51,7 @@ async function run() {
                 meta.name = pack.replace('_', ' ').replace(new RegExp('\.(zip|pack)'), '')
             }
             list.push(meta)
+            console.log(`${meta.name} by ${meta.author} added.`)
         }
         fs.writeFileSync('list.json', JSON.stringify(list, null, 2))
     }
