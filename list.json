@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MPack_Dark.zip",
+    "author": "Akos Paha",
+    "tags": [
+      "Border",
+      "Dark",
+      "Fixed"
+    ],
+    "name": "MPack Dark Themes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MPack_Light.zip",
+    "author": "Akos Paha",
+    "tags": [
+      "Border",
+      "Light",
+      "Fixed"
+    ],
+    "name": "MPack Light Themes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Nord_Themes.zip",
+    "author": "Rboard Script",
+    "tags": [],
+    "name": "Nord Themes"
+  }
+]
