@@ -3,6 +3,10 @@ name: Parse List
 on:
   push:
     branches: [ main ]
+    paths:
+      - '.github/**'
+      - 'packs/**'
+      - 'index.js'
 
 jobs:
   build:
