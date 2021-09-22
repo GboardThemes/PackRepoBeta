@@ -1,38 +1,148 @@
 [
   {
-    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MPack_Dark.zip",
-    "author": "Akos Paha",
-    "tags": [
-      "Border",
-      "Dark",
-      "Fixed"
-    ],
-    "date": 1632323165000,
-    "name": "MPack Dark Themes"
-  },
-  {
-    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MPack_Light.zip",
-    "author": "Akos Paha",
-    "tags": [
-      "Border",
-      "Light",
-      "Fixed"
-    ],
-    "date": 1632323165000,
-    "name": "MPack Light Themes"
-  },
-  {
-    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Nord_Themes.zip",
-    "author": "Josua Lengwenath",
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Carbonpack.zip",
+    "author": "RKBDI",
     "tags": [],
-    "date": 1632323165000,
-    "name": "Nord Themes"
+    "date": 1632324147000,
+    "name": "Carbonapck Swiftkey"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Chrome.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Chrome"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Flex.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Fleksy"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Hidden.zip",
+    "author": "RKBDI Google",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Hidden"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/IOSPACK.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "IOS"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MinimalBright.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Minimal Bright Swift"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Razr.zip",
+    "author": "RKBDI",
+    "tags": [
+      "Dark",
+      "Border"
+    ],
+    "date": 1632324147000,
+    "name": "Razr"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Rthemes.zip",
+    "author": "RKBDI",
+    "tags": [
+      "Unique",
+      "RKBDI"
+    ],
+    "date": 1632324147000,
+    "name": "Rthemes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/SwiftIOS.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Swiftkey IOS"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Swiftkey.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Swiftkey"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Vivid.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Vivid Swift"
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Xperia_Themes.zip",
-    "author": "Josua Lengwenath",
+    "author": "RKBDI",
     "tags": [],
-    "date": 1632323165000,
+    "date": 1632324147000,
     "name": "Xperia Themes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/allo.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Allo"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/gboard_gradients.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Gradients"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/gemstone.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Gemstone Swift"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/landscapes.zip",
+    "author": "Google",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Landscapes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/oppo.zip",
+    "author": "Oppo Theme",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Oppo"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/premzvenompack.zip",
+    "author": "Premzvenom",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Premzvenom Pack"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/rboard2.zip",
+    "author": "RKBDI",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Rboard 2"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/xiaomi.zip",
+    "author": "RKBDI Xiaomi",
+    "tags": [],
+    "date": 1632324147000,
+    "name": "Poco"
   }
 ]
