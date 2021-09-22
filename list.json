@@ -7,6 +7,7 @@
       "Dark",
       "Fixed"
     ],
+    "date": 1632320914000,
     "name": "MPack Dark Themes"
   },
   {
@@ -17,12 +18,21 @@
       "Light",
       "Fixed"
     ],
+    "date": 1632320914000,
     "name": "MPack Light Themes"
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Nord_Themes.zip",
-    "author": "Rboard Script",
+    "author": "Josua Lengwenath",
     "tags": [],
+    "date": 1632320914000,
     "name": "Nord Themes"
+  },
+  {
+    "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Xperia_Themes.zip",
+    "author": "Josua Lengwenath",
+    "tags": [],
+    "date": 1632322742000,
+    "name": "Xperia Themes"
   }
 ]

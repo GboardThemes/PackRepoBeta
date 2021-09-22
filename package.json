@@ -8,6 +8,7 @@
   "dependencies": {
     "adm-zip": "^0.5.6",
     "git-branch": "^2.0.1",
+    "gitlog": "^4.0.4",
     "parse-github-url": "^1.0.2",
     "remote-origin-url": "^2.0.0"
   }
