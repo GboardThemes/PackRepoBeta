@@ -246,8 +246,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/xiaomi.zip",
     "author": "RKBDI Xiaomi",
-    "tags": [],
-    "date": 1633516351000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633517357000,
     "name": "Poco"
   }
 ]
