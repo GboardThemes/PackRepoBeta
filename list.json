@@ -2,8 +2,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/3D_ThemePack.zip",
     "author": "Fakefams",
-    "tags": [],
-    "date": 1632326346000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "3D Theme Pack"
   },
   {
@@ -37,15 +39,19 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Cyberpunk.zip",
     "author": "Nitanmarcel",
-    "tags": [],
-    "date": 1632326346000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Cyberpunk"
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Cyberpunk_2.zip",
     "author": "MLZ",
-    "tags": [],
-    "date": 1632326346000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Cyberpunk 2"
   },
   {
@@ -93,8 +99,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Ios_ThemePack.zip",
     "author": "Fakefams",
-    "tags": [],
-    "date": 1632326346000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "IOS Theme Pack"
   },
   {
@@ -142,8 +150,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Outline_ThemePack.zip",
     "author": "Fakefams",
-    "tags": [],
-    "date": 1632326346000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Outline Theme Pack"
   },
   {
@@ -151,9 +161,10 @@
     "author": "RKBDI",
     "tags": [
       "Dark",
-      "Border"
+      "Border",
+      "Fixed"
     ],
-    "date": 1632324138000,
+    "date": 1633521138000,
     "name": "Razr"
   },
   {
@@ -161,9 +172,10 @@
     "author": "RKBDI",
     "tags": [
       "Unique",
-      "RKBDI"
+      "RKBDI",
+      "Fixed"
     ],
-    "date": 1632324138000,
+    "date": 1633521138000,
     "name": "Rthemes"
   },
   {
@@ -176,8 +188,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Swiftkey.zip",
     "author": "RKBDI",
-    "tags": [],
-    "date": 1632324138000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Swiftkey"
   },
   {
@@ -190,8 +204,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Xperia_Themes.zip",
     "author": "RKBDI",
-    "tags": [],
-    "date": 1632324138000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Xperia Themes"
   },
   {
@@ -239,8 +255,10 @@
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/rboard2.zip",
     "author": "RKBDI",
-    "tags": [],
-    "date": 1632324138000,
+    "tags": [
+      "Fixed"
+    ],
+    "date": 1633521138000,
     "name": "Rboard 2"
   },
   {
