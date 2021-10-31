@@ -1,5 +1,5 @@
 {
-  "time": "1631450578072",
+  "time": "1635709455346",
   "flags": [
     {
       "key": "general",
@@ -295,7 +295,8 @@
       "icon": "ic_lens",
       "defaultValue": false,
       "type": "BOOLEAN",
-      "file": "FLAGS"
+      "file": "FLAGS",
+      "visible": false
     },
     {
       "key": "enable_auto_float_keyboard_in_multi_window",
