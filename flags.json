@@ -1,5 +1,5 @@
 {
-  "time": "1637003058455",
+  "time": "1652986081697",
   "flags": [
     {
       "key": "general",
@@ -31,6 +31,16 @@
           "second": "disabled"
         }
       ]
+    },
+    {
+      "key": "enable_get_bitmoji_card",
+      "title": "enable_get_bitmoji_card",
+      "summary": "",
+      "icon": "ic_bitmoji",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS",
+      "visible": true
     },
     {
       "key": "enable_joystick_delete",
@@ -76,31 +86,13 @@
       "file": "FLAGS"
     },
     {
-      "key": "themed_nav_bar_style",
-      "title": "themed_nav_bar_style",
+      "key": "themed_nav_bar_all_devices",
+      "title": "themed_nav_bar_all_devices",
       "summary": "",
       "icon": "ic_navbar",
       "defaultValue": false,
       "type": "BOOLEAN",
-      "file": "FLAGS",
-      "visible": false,
-      "valueMap": [
-        {
-          "first": true,
-          "second": 2,
-          "type2": "long"
-        },
-        {
-          "first": false,
-          "second": 1,
-          "type2": "long"
-        },
-        {
-          "first": null,
-          "second": 1,
-          "type2": "long"
-        }
-      ]
+      "file": "FLAGS"
     },
     {
       "key": "enable_email_provider_completion",
@@ -140,6 +132,15 @@
       "file": "GBOARD_PREFERENCES"
     },
     {
+      "key": "show_language_switch_key",
+      "title": "show_language_switch_key",
+      "summary": "",
+      "icon": "ic_globe",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "GBOARD_PREFERENCES"
+    },
+    {
       "key": "show_suggestions",
       "title": "show_suggestions",
       "summary": "",
@@ -147,6 +148,16 @@
       "defaultValue": false,
       "type": "BOOLEAN",
       "file": "GBOARD_PREFERENCES"
+    },
+    {
+      "key": "keyboard_redesign_google_sans",
+      "title": "keyboard_redesign_google_sans",
+      "summary": "",
+      "icon": "ic_g_sans",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS",
+      "visible": true
     },
     {
       "key": "branding",
@@ -270,6 +281,37 @@
       "type": "BOOLEAN",
       "file": "FLAGS",
       "visible": false
+    },{
+      "key": "silk",
+      "title": "silk",
+      "summary": "silk_details",
+      "icon": "ic_silk_popup",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "linkedKeys": [
+        "silk_popup",
+        "silk_key_press"
+      ]
+    },
+    {
+      "key": "silk_popup",
+      "title": "silk_popup",
+      "summary": "",
+      "icon": "ic_silk_popup",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS",
+      "visible": false
+    },
+    {
+      "key": "silk_key_press",
+      "title": "silk_key_press",
+      "summary": "",
+      "icon": "ic_silk_popup",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS",
+      "visible": false
     },
     {
       "key": "pill_shaped_key",
@@ -314,6 +356,24 @@
       "title": "enable_auto_float_keyboard_in_multi_window",
       "summary": "",
       "icon": "ic_float",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS"
+    },
+    {
+      "key": "enable_floating_keyboard_v2",
+      "title": "enable_floating_keyboard_v2",
+      "summary": "",
+      "icon": "ic_float_v2",
+      "defaultValue": false,
+      "type": "BOOLEAN",
+      "file": "FLAGS"
+    },
+    {
+      "key": "translate_new_ui",
+      "title": "translate_new_ui",
+      "summary": "",
+      "icon": "ic_translate_new_ui",
       "defaultValue": false,
       "type": "BOOLEAN",
       "file": "FLAGS"
@@ -386,6 +446,24 @@
         {
           "first": "extra_tall",
           "second": 1.15,
+          "type1": "string",
+          "type2": "string"
+        },
+        {
+          "first": "more_tall",
+          "second": 1.20,
+          "type1": "string",
+          "type2": "string"
+        },
+        {
+          "first": "extra_more_tall",
+          "second": 1.30,
+          "type1": "string",
+          "type2": "string"
+        },
+        {
+          "first": "extra_mooore",
+          "second": 1.40,
           "type1": "string",
           "type2": "string"
         },
