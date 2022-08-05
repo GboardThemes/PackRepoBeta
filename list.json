@@ -711,7 +711,7 @@
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/stock_port.zip",
     "author": [
       "Google",
-      " RKBDI"
+      "RKBDI"
     ],
     "tags": [],
     "themes": [
@@ -728,8 +728,8 @@
       "sand_port",
       "teal_port"
     ],
-    "size": 773119,
-    "date": 1659720208000,
+    "size": 773118,
+    "date": 1659720517000,
     "name": "Stock themes from Gboard"
   },
   {
