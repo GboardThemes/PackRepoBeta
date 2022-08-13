@@ -1,5 +1,5 @@
 {
-  "time": "1652986081697",
+  "time": "1660409434782",
   "flags": [
     {
       "key": "general",
@@ -89,6 +89,7 @@
       "key": "themed_nav_bar_all_devices",
       "title": "themed_nav_bar_all_devices",
       "summary": "",
+      "minSdk": 29,
       "icon": "ic_navbar",
       "defaultValue": false,
       "type": "BOOLEAN",
