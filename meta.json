@@ -1,4 +1,5 @@
 {
   "name": "Offical Rboard Repo",
-  "proto": "proto/list.proto"
+  "proto": "proto/list.proto",
+  "protoList": "proto/list.pb"
 }
