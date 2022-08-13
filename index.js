@@ -1,5 +1,6 @@
 // noinspection JSCheckFunctionSignatures,JSUnresolvedFunction
 
+const protobuf = require('protobufjs')
 const AdmZip = require('adm-zip')
 const path = require('path')
 const fs = require('fs')
@@ -56,6 +57,23 @@ async function run() {
             console.log(`${meta.name} by ${meta.author} added.`)
         }
         fs.writeFileSync('list.json', JSON.stringify(list, null, 2))
+        await new Promise((res, rej) => protobuf.load('proto/list.proto', (err, root) => {
+            if (err) return rej(err)
+
+            const ObjectList = root.lookupType('rboard.ObjectList')
+
+            const errMsg = ObjectList.verify({ objects: list })
+            if (errMsg) return rej(errMsg)
+
+            const message = ObjectList.fromObject({ objects: list })
+
+            const buffer = ObjectList.encode(message).finish()
+
+            fs.writeFile('proto/list.pb', buffer, err => {
+                if (err) return rej(err)
+                res()
+            })
+        }))
     }
 }
 

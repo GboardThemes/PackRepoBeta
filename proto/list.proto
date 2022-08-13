@@ -1,0 +1,18 @@
+package rboard;
+
+syntax = "proto3";
+
+message ObjectList {
+    repeated Object objects = 1;
+}
+
+message Object {
+    string url = 1;
+    string author = 2;
+    repeated string tags = 3;
+    repeated string themes = 4;
+    int64 size = 5;
+    int64 date = 6;
+    string name = 7;
+    string description = 8;
+}
