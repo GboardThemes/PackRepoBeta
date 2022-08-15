@@ -10,6 +10,11 @@ Ehttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/3Dark.zip
 3Dark_Piel"3Dark_Plata"
 3Dark_Rojo"
 3Dark_Rosa"3Dark_VerdeAgua"3Dark_VerdeLimon(Õž\0¨›¡§¨0:3Dark
+£
+Ghttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Amogus.pack
+DerTyp7214AmogusMemeSus"Amogus_Rose"
+Amogus_Tan"Amogus_White"Amogus_Yellow"Amogus_Banana"Amogus_Black"Amogus_Blue"Amogus_Brown"Amogus_Coral"Amogus_Cyan"Amogus_Fortegreen"Amogus_Gray"Amogus_Green"Amogus_Lime"Amogus_Maroon"Amogus_Olive"Amogus_Orange"Amogus_Pink"Amogus_Purple"
+Amogus_Red(¡…C0ˆÊ«•ª0:AmogusBSus Theme Pack
 Ú
 Qhttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Another_ThemePack.zipFakefams"Aex"Bluish"Bootleggers"	Chocolate"English Red"
 EvolutionX"Glaucous"Gopix"Greish"White(¤¬S0ÈŠÇ…£0:Another Theme Pack
