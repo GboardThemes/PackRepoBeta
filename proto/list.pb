@@ -1,15 +1,6 @@
 
 £
 Lhttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/3D_ThemePack.zipFakefamsFixed"3D_Black"3D_BlackCarmine"3D_BlackMcLaren"3D_BlackPastelPurple"3D_BlackVerdigris"3D_White"3D_WhiteCarmine"3D_WhiteLavenderPink"3D_WhiteMcLaren"3D_WhiteVerdigris(”ƒZ0ÐòÉ«Å/:3D Theme Pack
-Ê
-Ehttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/3Dark.zip
-@modulostkBlack"3Dark_Amarillo"
-3Dark_Azul"3Dark_Black"3Dark_Blanco"3Dark_Carmine"3Dark_Celeste"
-3Dark_Gris"
-3Dark_Lila"3Dark_Morado"3Dark_Naranja"
-3Dark_Piel"3Dark_Plata"
-3Dark_Rojo"
-3Dark_Rosa"3Dark_VerdeAgua"3Dark_VerdeLimon(Õž\0¨›¡§¨0:3Dark
 £
 Ghttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Amogus.pack
 DerTyp7214AmogusMemeSus"Amogus_Rose"
