@@ -110,6 +110,6 @@ typewriter"Typewriter_Red(à¡0»ä«Ö£0:Premzvenom Pack
 Ghttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/rboard2.zipRKBDIFixed"ATV"oil"oppo_theme_dark"projct"projct_dark"Smartisanlight"testing(À“50–Ú…´≈/:Rboard 2
 ∫
 Jhttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/stock_port.zipGoogle"google_blue_dark_port"google_blue_light_port"
-green_port"holo_blue_port"holo_white_port"material_dark_port"material_light_port"pink_light_port"	pink_port"red_port"	sand_port"	teal_port(„í/0ÕÂá≠0:Stock themes from Gboard
+green_port"holo_blue_port"holo_white_port"material_dark_port"material_light_port"pink_light_port"	pink_port"red_port"	sand_port"	teal_port(◊ç/0‡˙Ûπ≤0:Stock themes from Gboard
 Œ
 Fhttps://github.com/GboardThemes/PackRepoBeta/raw/main/packs/xiaomi.zipRKBDI XiaomiFixed"xiaomi_mint_dark"xiaomi_mint_light"xiaomi_mint_pink"xiaomi_mint_sand"xiaomi_theme_20171222(Çı0»è„©≈/:Poco
