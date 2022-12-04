@@ -1,6 +1,7 @@
 [
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/3D_ThemePack.zip",
+    "path": "packs/3D_ThemePack.zip",
     "author": "Fakefams",
     "tags": [
       "Fixed"
@@ -23,6 +24,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Amogus.pack",
+    "path": "packs/Amogus.pack",
     "author": "DerTyp7214",
     "tags": [
       "Amogus",
@@ -58,6 +60,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Another_ThemePack.zip",
+    "path": "packs/Another_ThemePack.zip",
     "author": "Fakefams",
     "tags": [],
     "themes": [
@@ -78,6 +81,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Carbonpack.zip",
+    "path": "packs/Carbonpack.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -93,6 +97,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Chrome.zip",
+    "path": "packs/Chrome.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -117,6 +122,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Cool Themes.zip",
+    "path": "packs/Cool Themes.zip",
     "author": "Mahmoudk1000",
     "tags": [],
     "themes": [
@@ -133,6 +139,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Cyberpunk.zip",
+    "path": "packs/Cyberpunk.zip",
     "author": "Nitanmarcel",
     "tags": [
       "Fixed"
@@ -155,6 +162,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Cyberpunk_2.zip",
+    "path": "packs/Cyberpunk_2.zip",
     "author": "MLZ",
     "tags": [
       "Fixed"
@@ -172,6 +180,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/ErenMetesar Theme Pack.zip",
+    "path": "packs/ErenMetesar Theme Pack.zip",
     "author": "Eren Metesar",
     "tags": [],
     "themes": [
@@ -197,6 +206,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Flex.zip",
+    "path": "packs/Flex.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -214,6 +224,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Fluid Pack by Andro.zip",
+    "path": "packs/Fluid Pack by Andro.zip",
     "author": "Andro",
     "tags": [],
     "themes": [
@@ -230,6 +241,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/GabrielPack.zip",
+    "path": "packs/GabrielPack.zip",
     "author": "Gabriel Howard",
     "tags": [],
     "themes": [
@@ -255,6 +267,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Hidden.zip",
+    "path": "packs/Hidden.zip",
     "author": "RKBDI Google",
     "tags": [],
     "themes": [
@@ -274,6 +287,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/IOSPACK.zip",
+    "path": "packs/IOSPACK.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -290,6 +304,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Ios_ThemePack.zip",
+    "path": "packs/Ios_ThemePack.zip",
     "author": "Fakefams",
     "tags": [
       "Fixed"
@@ -308,6 +323,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MD2-Colors.zip",
+    "path": "packs/MD2-Colors.zip",
     "author": "Vortex",
     "tags": [],
     "themes": [
@@ -336,6 +352,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MLZ_themes.zip",
+    "path": "packs/MLZ_themes.zip",
     "author": "MLZ",
     "tags": [],
     "themes": [
@@ -356,6 +373,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/MinimalBright.zip",
+    "path": "packs/MinimalBright.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -370,6 +388,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Nice_Evening.zip",
+    "path": "packs/Nice_Evening.zip",
     "author": "MLZ",
     "tags": [],
     "themes": [
@@ -388,6 +407,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Nord Dark v2.zip",
+    "path": "packs/Nord Dark v2.zip",
     "author": "Andro",
     "tags": [],
     "themes": [
@@ -410,6 +430,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Omar Fit Themes.zip",
+    "path": "packs/Omar Fit Themes.zip",
     "author": "Omarfit",
     "tags": [],
     "themes": [
@@ -429,6 +450,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Outline_ThemePack.zip",
+    "path": "packs/Outline_ThemePack.zip",
     "author": "Fakefams",
     "tags": [
       "Fixed"
@@ -447,6 +469,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Razr.zip",
+    "path": "packs/Razr.zip",
     "author": "RKBDI",
     "tags": [
       "Dark",
@@ -468,6 +491,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Rthemes.zip",
+    "path": "packs/Rthemes.zip",
     "author": "RKBDI",
     "tags": [
       "Unique",
@@ -519,6 +543,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/SwiftIOS.zip",
+    "path": "packs/SwiftIOS.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -533,6 +558,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Swiftkey.zip",
+    "path": "packs/Swiftkey.zip",
     "author": "RKBDI",
     "tags": [
       "Fixed"
@@ -558,6 +584,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Vivid.zip",
+    "path": "packs/Vivid.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -573,6 +600,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/Xperia_Themes.zip",
+    "path": "packs/Xperia_Themes.zip",
     "author": "RKBDI",
     "tags": [
       "Fixed"
@@ -588,6 +616,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/allo.zip",
+    "path": "packs/allo.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -601,6 +630,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/gboard_gradients.zip",
+    "path": "packs/gboard_gradients.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -664,6 +694,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/gemstone.zip",
+    "path": "packs/gemstone.zip",
     "author": "RKBDI",
     "tags": [],
     "themes": [
@@ -676,6 +707,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/landscapes.zip",
+    "path": "packs/landscapes.zip",
     "author": "Google",
     "tags": [],
     "themes": [
@@ -698,6 +730,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/oppo.zip",
+    "path": "packs/oppo.zip",
     "author": "Oppo Theme",
     "tags": [],
     "themes": [
@@ -709,6 +742,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/premzvenompack.zip",
+    "path": "packs/premzvenompack.zip",
     "author": "Premzvenom",
     "tags": [],
     "themes": [
@@ -725,6 +759,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/rboard2.zip",
+    "path": "packs/rboard2.zip",
     "author": "RKBDI",
     "tags": [
       "Fixed"
@@ -744,6 +779,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/stock_port.zip",
+    "path": "packs/stock_port.zip",
     "author": "Google",
     "tags": [],
     "themes": [
@@ -766,6 +802,7 @@
   },
   {
     "url": "https://github.com/GboardThemes/PackRepoBeta/raw/main/packs/xiaomi.zip",
+    "path": "packs/xiaomi.zip",
     "author": "RKBDI Xiaomi",
     "tags": [
       "Fixed"
