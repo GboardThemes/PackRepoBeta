@@ -8,6 +8,7 @@ message ObjectList {
 
 message Object {
     string url = 1;
+    string path = 9;
     string author = 2;
     repeated string tags = 3;
     repeated string themes = 4;
