@@ -24,6 +24,7 @@ async function run() {
             gitUrl.branch = gitBranch.sync()
             const meta = {
                 url: `https://github.com/${gitUrl.repo}/raw/${gitUrl.branch}/${packPath}/${pack}`,
+                path: `${packPath}/${pack}`,
                 author: 'Rboard Script',
                 tags: []
             }
