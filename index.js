@@ -23,8 +23,7 @@ async function run() {
             const gitUrl = parseGithubUrl(gitRemoteOriginUrl.sync())
             gitUrl.branch = gitBranch.sync()
             const meta = {
-                url: `https://github.com/${gitUrl.repo}/raw/${gitUrl.branch}/${packPath}/${pack}`,
-                path: `${packPath}/${pack}`,
+                url: `${packPath}/${pack}`,
                 author: 'Rboard Script',
                 tags: []
             }
