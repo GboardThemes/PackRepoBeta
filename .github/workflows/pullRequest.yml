@@ -40,6 +40,7 @@ jobs:
       - name: Comment meta on PR
         uses: peter-evans/create-or-update-comment@v1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             The following packs have been modified:
