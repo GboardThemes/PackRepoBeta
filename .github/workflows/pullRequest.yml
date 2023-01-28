@@ -24,14 +24,15 @@ jobs:
         id: changed-files
         uses: jitterbit/get-changed-files@v1
         with:
+          format: json
           files: |
             packs/**
-          format: json
 
-      - name: Get changed packs
+      - name: Get changed packs unzip pack.meta and save contents of pack.meta to markdown file
         id: changed-packs
         run: |
-          echo "packs=$(echo '${{ steps.changed-files.outputs.all }}' | jq -r '.[]' | grep -o 'packs/[^/]*' | sort -u | tr '' ',')" >> $GITHUB_OUTPUT
+          echo ${{ steps.changed-files.outputs.added_modified  }}
+          echo "packs=$(echo '${{ steps.changed-files.outputs.added_modified  }}' | jq -r '.[]' | xargs -I {} basename {} .zip | tr '' ',')" >> $GITHUB_OUTPUT
 
       - name: Unzip packs to extract pack.meta
         run: |
