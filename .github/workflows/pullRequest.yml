@@ -1,0 +1,46 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'packs/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: jitterbit/get-changed-files@v1
+        with:
+          format: json
+
+      - name: Get changed packs
+        id: changed-packs
+        run: |
+          echo "::set-output name=packs::$(echo '${{ steps.changed-files.outputs.all }}' | jq -r '.[]' | grep -o 'packs/[^/]*' | sort -u | tr '' ',')"
+
+      - name: Unzip packs
+        run: |
+          for pack in ${{ steps.changed-packs.outputs.packs }}; do
+            unzip -o $pack -d $pack
+          done
+
+      - name: Read pack.meta files
+        id: read-pack-meta
+        run: |
+          echo "::set-output name=packs::$(echo '${{ steps.changed-packs.outputs.packs }}' | jq -r '.[]' | xargs -I {} jq -r '.name' {}/pack.meta | tr '' ',')"
+
+      - name: Comment meta on PR
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            The following packs have been modified:
+            ${{ steps.read-pack-meta.outputs.packs }}
