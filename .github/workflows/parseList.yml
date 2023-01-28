@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    name: Parse list
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
