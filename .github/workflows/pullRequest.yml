@@ -25,29 +25,11 @@ jobs:
         uses: jitterbit/get-changed-files@v1
         with:
           format: json
-          files: |
-            packs/**
 
-      - name: Get changed packs unzip pack.meta and save contents of pack.meta to markdown file
-        id: changed-packs
+      - name: Unzip files from 'packs' directory
         run: |
-          echo ${{ steps.changed-files.outputs.added_modified  }}
-          echo "packs=$(echo '${{ steps.changed-files.outputs.added_modified  }}' | jq -r '.[]' | xargs -I {} basename {} .zip | tr '' ',')" >> $GITHUB_OUTPUT
-
-      - name: Unzip packs to extract pack.meta
-        run: |
-          echo '${{ steps.changed-packs.outputs.packs }}' | jq -r '.[]' | xargs -I {} unzip -o {}.zip -d {}
-
-      - name: Read pack.meta files
-        id: read-pack-meta
-        run: |
-          echo ${{ steps.changed-packs.outputs.packs }}
-          echo "packs=$(echo '${{ steps.changed-packs.outputs.packs }}' | jq -r '.[]' | xargs -I {} jq -r '.name' {}/pack.meta | tr '' ',')" >> $GITHUB_OUTPUT
-
-      - name: Write contents of meta to markdown file
-        run: |
-          echo ${{ steps.read-pack-meta.outputs.packs }}
-          echo '${{ steps.read-pack-meta.outputs.packs }}' | jq -r '.[]' | xargs -I {} echo {} >> packs.md
+          echo '${{ steps.changed-files.outputs.files }}' | jq -r '.[]' | grep 'packs/' | xargs -I {} unzip -o {} -d tmp/{}
+          find tmp/ -name 'pack.meta' -exec cat {} \; | jq -r '.name' | tr '' ',' >> packs.md
 
       - name: Log contents of markdown file
         run: |
