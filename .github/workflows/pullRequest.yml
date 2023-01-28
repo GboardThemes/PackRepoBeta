@@ -46,12 +46,14 @@ jobs:
         run: |
           echo '${{ steps.read-pack-meta.outputs.packs }}' | jq -r '.[]' | xargs -I {} echo {} >> packs.md
 
+      - name: Log contents of markdown file
+        run: |
+          cat packs.md
+
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            The following packs have been modified:
-            ${{ steps.read-pack-meta.outputs.packs }}
+          body-file: packs.md
           reactions: eyes
