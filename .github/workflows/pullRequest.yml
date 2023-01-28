@@ -28,12 +28,9 @@ jobs:
         run: |
           echo "::set-output name=packs::$(echo '${{ steps.changed-files.outputs.all }}' | jq -r '.[]' | grep -o 'packs/[^/]*' | sort -u | tr '' ',')"
 
-      - name: Unzip packs
+      - name: Unzip packs to extract pack.meta
         run: |
-          for pack in ${{ steps.changed-packs.outputs.packs }}; do
-            echo "Unzipping $pack"
-            unzip $pack -d $pack
-          done
+          echo '${{ steps.changed-packs.outputs.packs }}' | jq -r '.[]' | xargs -I {} unzip -o {}.zip -d {}
 
       - name: Read pack.meta files
         id: read-pack-meta
