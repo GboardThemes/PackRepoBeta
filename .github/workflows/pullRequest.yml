@@ -36,6 +36,7 @@ jobs:
           echo '```' >> packs.md
           echo '${{ steps.changed-files.outputs.added_modified }}' | jq -r '.[]' | grep 'packs/' | xargs -I {} unzip -o {} -d tmp/{}
           find tmp/packs/ -name 'pack.meta' -exec cat {} \; >> packs.md
+          echo '' >> packs.md
           echo '```' >> packs.md
           echo '' >> packs.md
           echo '## Changed files:' >> packs.md
@@ -47,7 +48,7 @@ jobs:
           echo '## Contents of files:' >> packs.md
           echo '' >> packs.md
           echo '```' >> packs.md
-          ls -R tmp/packs/* | egrep -i ":|.zip|^$" >> packs.md
+          ls -R tmp/packs/* | egrep -i ":|.zip|^$" | tr 'tmp/packs/' '' >> packs.md
           echo '```' >> packs.md
 
       - name: Log contents of markdown file
@@ -60,4 +61,4 @@ jobs:
           filePath: packs.md
           reactions: eyes
           mode: recreate
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          token: ${{ secrets.REPO_TOKEN }}
