@@ -31,7 +31,8 @@ jobs:
       - name: Unzip packs
         run: |
           for pack in ${{ steps.changed-packs.outputs.packs }}; do
-            unzip -o $pack -d $pack
+            echo "Unzipping $pack"
+            unzip $pack -d $pack
           done
 
       - name: Read pack.meta files
