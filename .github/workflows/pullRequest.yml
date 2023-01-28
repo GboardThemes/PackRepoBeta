@@ -28,8 +28,26 @@ jobs:
 
       - name: Unzip files from 'packs' directory
         run: |
+          mkdir tmp
+          # Get all zip files from of each pack and save the name of the pack in packs.md
+          echo '## Changed packs:' > packs.md
+          echo '' >> packs.md
+          echo '```' >> packs.md
           echo '${{ steps.changed-files.outputs.added_modified }}' | jq -r '.[]' | grep 'packs/' | xargs -I {} unzip -o {} -d tmp/{}
           find tmp/ -name 'pack.meta' -exec cat {} \; | jq -r '.name' | tr '' ',' >> packs.md
+          echo '```' >> packs.md
+          echo '' >> packs.md
+          echo '## Changed files:' >> packs.md
+          echo '' >> packs.md
+          echo '```' >> packs.md
+          echo '${{ steps.changed-files.outputs.added_modified }}' >> packs.md
+          echo '```' >> packs.md
+          echo '' >> packs.md
+          echo '## Contents of files:' >> packs.md
+          echo '' >> packs.md
+          echo '```' >> packs.md
+          echo '$(ls -R tmp/)' >> packs.md
+          echo '```' >> packs.md
 
       - name: Log contents of markdown file
         run: |
