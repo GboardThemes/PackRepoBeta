@@ -29,6 +29,7 @@ jobs:
       - name: Unzip files from 'packs' directory
         run: |
           mkdir tmp
+          mkdir tmp/packs
           # Get all zip files from of each pack and save the name of the pack in packs.md
           echo '## Changed packs:' > packs.md
           echo '' >> packs.md
@@ -46,7 +47,7 @@ jobs:
           echo '## Contents of files:' >> packs.md
           echo '' >> packs.md
           echo '```' >> packs.md
-          echo '$(ls -R tmp/)' >> packs.md
+          echo '$(ls -R tmp/packs/* | egrep -i ":|.zip|^$")' >> packs.md
           echo '```' >> packs.md
 
       - name: Log contents of markdown file
