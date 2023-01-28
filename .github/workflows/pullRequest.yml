@@ -42,8 +42,12 @@ jobs:
         run: |
           echo "::set-output name=packs::$(echo '${{ steps.changed-packs.outputs.packs }}' | jq -r '.[]' | xargs -I {} jq -r '.name' {}/pack.meta | tr '' ',')"
 
-      - name: Comment meta on PR
-        uses: peter-evans/create-or-update-comment@v1
+      - name: Write contents of meta to markdown file
+        run: |
+          echo '${{ steps.read-pack-meta.outputs.packs }}' | jq -r '.[]' | xargs -I {} echo {} >> packs.md
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
