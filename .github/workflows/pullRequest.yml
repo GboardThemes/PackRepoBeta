@@ -28,7 +28,7 @@ jobs:
 
       - name: Unzip files from 'packs' directory
         run: |
-          echo '${{ steps.changed-files.outputs.files }}' | jq -r '.[]' | grep 'packs/' | xargs -I {} unzip -o {} -d tmp/{}
+          echo '${{ steps.changed-files.outputs.added_modified }}' | jq -r '.[]' | grep 'packs/' | xargs -I {} unzip -o {} -d tmp/{}
           find tmp/ -name 'pack.meta' -exec cat {} \; | jq -r '.name' | tr '' ',' >> packs.md
 
       - name: Log contents of markdown file
