@@ -48,8 +48,9 @@ jobs:
           echo '## Contents of files:' >> packs.md
           echo '' >> packs.md
           echo '```' >> packs.md
-          ls -R tmp/packs/* | egrep -i ":|.zip|^$" | sed -i 's/tmp\/packs\///g' >> packs.md
+          ls -R tmp/packs/* | egrep -i ":|.zip|^$" >> packs.md
           echo '```' >> packs.md
+          sed -i 's/tmp\/packs\///g' packs.md
 
       - name: Log contents of markdown file
         run: |
