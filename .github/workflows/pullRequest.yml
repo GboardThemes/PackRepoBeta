@@ -61,5 +61,4 @@ jobs:
           filePath: packs.md
           reactions: eyes
           mode: recreate
-          token: ${{ secrets.REPO_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
