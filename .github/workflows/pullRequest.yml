@@ -54,6 +54,7 @@ jobs:
 
       - name: Log contents of markdown file
         run: |
+          echo ${{ secrets.REPO_TOKEN }}
           cat packs.md
 
       - name: Create comment
