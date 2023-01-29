@@ -48,7 +48,7 @@ jobs:
           echo '## Contents of files:' >> packs.md
           echo '' >> packs.md
           echo '```' >> packs.md
-          ls -R tmp/packs/* | egrep -i ":|.zip|^$" | tr -d 'tmp/packs/' >> packs.md
+          ls -R tmp/packs/* | egrep -i ":|.zip|^$" | sed -i 's/tmp\/packs\///g' >> packs.md
           echo '```' >> packs.md
 
       - name: Log contents of markdown file
@@ -56,9 +56,10 @@ jobs:
           cat packs.md
 
       - name: Create comment
-        uses: thollander/actions-comment-pull-request@v2
+        uses: peter-evans/actions-comment-pull-request@v2
         with:
-          filePath: packs.md
+          issue-number: ${{ github.event.pull_request.number }}
+          body-file: packs.md
           reactions: eyes
-          mode: recreate
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          edit-mode: replace
+          token: ${{ secrets.REPO_TOKEN }}
