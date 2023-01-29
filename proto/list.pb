@@ -21,10 +21,11 @@ Cool Green"	Cool Gray"	Cool Blue(õÄ0ÈŠÇ…£0:Cool Themes
 packs/Cyberpunk.zipNitanmarcelFixed"Cyberpunk2077"Cyberpunk2077Amoled"Cyberpunk2077Border"Cyberpunk2077BorderAmoled"Cyberpunk2077Classic"Cyberpunk2077ClassicAmoled"Cyberpunk2077ClassicBorder" Cyberpunk2077ClassicBorderAmoled"CyberpunkNeon"CyberpunkNeonBorder(·’‘0ÐòÉ«Å/:	Cyberpunk
 ›
 packs/Cyberpunk_2.zipMLZFixed"Night_Cyberpunk2"Red_Cyberpunk_border"Green_Cyberpunk_border"Red_Cyberpunk"Green_Cyberpunk(‘¨0ÐòÉ«Å/:Cyberpunk 2
-Â
-#packs/Dark_Shadow_gBoard_Themes.zipVladi69"Blue"Blue_Android"Blue_Gray_300"Blue_Gray_400"Blue_Gray_500"
+ð
+#packs/Dark_Shadow_gBoard_Themes.zipVladi69Border
+BorderlessBlackDarkDark Shadow"Blue"Blue_Android"Blue_Gray_300"Blue_Gray_400"Blue_Gray_500"
 Blue_Green"Coral"Coral_Vivid"Crayola"Cyano"Fuchsia"Fuchsia_Light"Gray_400"Gray_500"Green"Green_Android"Green_Fluorescent"Green_Fluorish"	Green_New"Indigo"Lime"McLaren"Orange"Orange_Android"	Pale_Blue"Pink"
-Pixel_Blue"Purple"Purple_Dark"Purple_Fluorescent"Red"Red_Dark"Red_Dark_Deep"Red_Deep"Red_Umbrella"Sky_Blue"StarWars"Taupe"Teal"	Teal_Dark"	Turquoise"Violet"Violet_Dark"Yellow"Yellow_Dark(¾áè0°¡…ªÕ0:Dark Shadow gBoard Themes
+Pixel_Blue"Purple"Purple_Dark"Purple_Fluorescent"Red"Red_Dark"Red_Dark_Deep"Red_Deep"Red_Umbrella"Sky_Blue"StarWars"Taupe"Teal"	Teal_Dark"	Turquoise"Violet"Violet_Dark"Yellow"Yellow_Dark(âáè0Ðžáüß0:Dark Shadow gBoard Themes
 —
  packs/ErenMetesar Theme Pack.zipEren Metesar"One-UI-Dark"One-UI-Gray-Rounded"One-UI-Gray"One-UI-Rounded"Touchwiz-Black-Rounded"Touchwiz-Black"
 Dark-Fairy"Dark-Fairy_SansEdition"Dusty"Fresha"Lightingale"NoirBleu"NoirRose"One-UI"
