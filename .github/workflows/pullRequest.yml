@@ -64,3 +64,4 @@ jobs:
           body-file: packs.md
           reactions: eyes
           edit-mode: replace
+          token: ${{ secrets.REPO_TOKEN }}
