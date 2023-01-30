@@ -173,7 +173,13 @@
   {
     "url": "packs/Dark_Shadow_gBoard_Themes.zip",
     "author": "Vladi69",
-    "tags": [],
+    "tags": [
+      "Border",
+      "Borderless",
+      "Black",
+      "Dark",
+      "Dark Shadow"
+    ],
     "themes": [
       "Blue",
       "Blue_Android",
@@ -221,8 +227,8 @@
       "Yellow",
       "Yellow_Dark"
     ],
-    "size": 8007870,
-    "date": 1672172622000,
+    "size": 8007906,
+    "date": 1675030450000,
     "name": "Dark Shadow gBoard Themes"
   },
   {
