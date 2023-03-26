@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package rboard;
 
+import "google/protobuf/descriptor.proto";
+
 message ObjectList {
     repeated Object objects = 1;
 }
