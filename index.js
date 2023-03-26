@@ -2,6 +2,7 @@
 
 const protobuf = require('protobufjs')
 const AdmZip = require('adm-zip')
+const crypto = require('crypto')
 const path = require('path')
 const fs = require('fs')
 
@@ -22,8 +23,14 @@ async function run() {
             const metaFile = zip.getEntry('pack.meta')
             const gitUrl = parseGithubUrl(gitRemoteOriginUrl.sync())
             gitUrl.branch = gitBranch.sync()
+
+            const fileBuffer = fs.readFileSync(path.join(packPath, pack))
+            const hashSum = crypto.createHash('sha256')
+            hashSum.update(fileBuffer)
+
             const meta = {
                 url: `${packPath}/${pack}`,
+                hash: hashSum.digest('hex'),
                 author: 'Rboard Script',
                 tags: []
             }
