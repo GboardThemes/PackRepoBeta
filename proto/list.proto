@@ -1,6 +1,6 @@
-package rboard;
-
 syntax = "proto3";
+
+package rboard;
 
 message ObjectList {
     repeated Object objects = 1;
