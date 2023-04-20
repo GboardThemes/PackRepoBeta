@@ -1,5 +1,5 @@
 {
-  "time": "1660409434782",
+  "time": "1682014214771",
   "flags": [
     {
       "key": "general",
@@ -377,7 +377,8 @@
       "icon": "ic_translate_new_ui",
       "defaultValue": false,
       "type": "BOOLEAN",
-      "file": "FLAGS"
+      "file": "FLAGS",
+      "visible": false
     },
     {
       "key": "keyboard_redesign_forbid_key_shadows",
