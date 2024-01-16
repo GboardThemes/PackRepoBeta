@@ -1,5 +1,5 @@
 {
-  "time": "1703279086807",
+  "time": "1705418202551",
   "flags": [
     {
       "key": "general",
@@ -485,7 +485,8 @@
           "type2": "string"
         }
       ],
-      "file": "GBOARD_PREFERENCES"
+      "file": "GBOARD_PREFERENCES",
+      "visible": false
     }
   ]
 }
