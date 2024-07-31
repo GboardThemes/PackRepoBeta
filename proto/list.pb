@@ -6,6 +6,19 @@
 DerTyp7214AmogusMemeSus"Amogus_Rose"
 Amogus_Tan"Amogus_White"Amogus_Yellow"Amogus_Banana"Amogus_Black"Amogus_Blue"Amogus_Brown"Amogus_Coral"Amogus_Cyan"Amogus_Fortegreen"Amogus_Gray"Amogus_Green"Amogus_Lime"Amogus_Maroon"Amogus_Olive"Amogus_Orange"Amogus_Pink"Amogus_Purple"
 Amogus_Red(°ÖC0à ´ï™0:AmogusBSus Theme PackJ@a4a510baade5faf8340adab5ca48d01cd8f6bd9a8174f11ce05a6510da9ac9a7
+°
+packs/Android_pack.zipLeese"Android_Dark_Blue"Android_Dark_Cinnamon"Android_Dark_Green"Android_Dark_Ocean"Android_Dark_Orchid"Android_Dark_Purple"Android_Dark_Space"Android_Light_Blue"Android_Light_Cinnamon"Android_Light_Green"Android_Light_Ocean"Android_Light_Orchid"Android_Light_Purple"Android_Light_Space(‹é;0˝Ω‘ê2:Android PackJ@0d13a0600bf0f5d99d39431e3400b9407c360f4b70f61c99810e067c4cd368e2
+ä
+packs/Animal Black.zipLeese"
+Foxy_Black"Lizard_Black"Red_Panda_Black"Snake_Black"Weasel_Black"
+Bear_Black"	Bee_Black"Blue_Whale_Black"Butterfly_Black"Flamingo_Black(˛ó$0˝Ω‘ê2:Animal BlackJ@ecabeaa990d7197bc0270a6e42ff0e7c414e41cabae4ee87d992d31f0b9feb38
+˛
+packs/Animal Gray.zipLeese"	Bear_Gray"Bee_Gray"Blue_Whale_Gray"Butterfly_Gray"Flamingo_Gray"	Foxy_Gray"Lizard_Gray"Red_Panda_Gray"
+Snake_Gray"Weasel_Gray(îÇ0˝Ω‘ê2:Animal GrayJ@56a957ed2c175c889cf4b00bb72569610a6e7e3795e7ab80c57b6b22e81ae957
+ä
+packs/Animal White.zipLeese"Blue_Whale_White"Butterfly_White"Flamingo_White"
+Foxy_White"Lizard_White"Red_Panda_White"Snake_White"Weasel_White"
+Bear_White"	Bee_White(˚©'0˝Ω‘ê2:Animal WhiteJ@d1278531d814427792942f6d3f6097128732aa271d6a1f3be1e30e39ca3e719c
 Ê
 packs/Another_ThemePack.zipFakefams"Aex"Bluish"Bootleggers"	Chocolate"English Red"
 EvolutionX"Glaucous"Gopix"Greish"White(§¨S0»ä«Ö£0:Another Theme PackJ@6510c34d0b9d005f50f9be3ca07513ff869842f72a6fa04908d37164036c8f80
@@ -38,6 +51,12 @@ Fluid_Blue"Fluid_Green"
 Fluid_Mint"Fluid_Orange"	Fluid_Red(πŸ0ê ÌÒ¿/:Fluid ThemeJ@8a43b07812e90393254a808cc9fc38ea2c70b4047ab902ca7da9923b412a328b
 è
 packs/GabrielPack.zipGabriel Howard"	material2"material2AMOLED"material2AMOLED-AOSP"material2AOSP"material2BLUEKSY"material2DARK"material2DARKRed"material2PURPLE"material2YELLOW"lightveryRounded"material2OCEAN"material2AMOLED-OCEAN"material2AMOLED-ORANGE"material2BLACK"material2AMOLED-QBLUE(£ôF0ê ÌÒ¿/:GabrielpackJ@98cfe79143d848e9387e23585fb6e0ff57cd7742650a1dd60d96a1e70257b58e
+ç
+packs/Gem_Black.zipLeese"Andalusite_Black"Beryll_Black"Chrysolite_Black"Citrine_Black"Malachite_Black"
+Ruby_Black"Sapphire_Black"Spinel_Black"Amber_Black"Amethyst_Black(ëÀh0˝Ω‘ê2:	Gem BlackJ@f677066ed28be2896011c2dab862a281947718807ca20ce1534b30f3c81e07b1
+Í
+packs/Generated_Colors.zip
+DerTyp7214UniqueBorder"Color_Theme_Dark_61E991"Color_Theme_Light_61E991"Color_Theme_Pink_61E991(äÚ0˝Ω‘ê2:Generated Colors ThemesJ@7512fe6df0b3af169dc56486cde7219c9b3834b9c111cff039f3d466e82ad570
 „
 packs/Hidden.zipRKBDI Google"blank"default"google_blue_dark"google_blue_light"material_light"oem_demo"redesign"redesign_dark"sand(úï0»ä«Ö£0:HiddenJ@3dae5323858b07a48c40b7e8e68d3bd42c9f77c2abccfbcb9ae55049d4958193
 ü
@@ -69,6 +88,8 @@ Dark_Night"Pink_Evening"Purple_Evening"Bluish_Evening"Midnight"Orange_Eveni
 Œ
 packs/Outline_ThemePack.zipFakefamsFixed"CoolGrey"EvolutionXX"	JordyBlue"Onyx"
 PinkPastel"	Raspberry(‰Ω0–Ú…´≈/:Outline Theme PackJ@a794964bc46eb0f56301b44c76e524b4b726507fdc767eb398e008cb64e53706
+
+packs/Pacman_Themes.zipCrazyTruckerDarkBorderedColorfulFixed"Pacman3d_OnePlus_Blue_mod"Pacman3d_OnePlus_Yellow_mod"Pacman_OnePlus_Blue_mod"Pacman_OnePlus_Yellow_mod"PacmanDark_OnePlus_Blue_mod"PacmanDark_OnePlus_Yellow_mod"PacmanDark_Red-2_"PacmanDark_Red_(ûø:0˝Ω‘ê2:Pacman ThemesJ@d895d166fcb2b5c1ec5c7c41bce4252ebfcae23afb8d822933ca88c54eeb1dfe
  
 packs/Razr.zipRKBDIDarkBorderFixed"razer"
 razeramber"	razerblue"	razercyan"	razerpink"razerpurple"razerred(ë≈0–Ú…´≈/:RazrJ@b83775c4700dfb103c6240732d5620072dc6d56967b8843fe01a61af2d9653b0
