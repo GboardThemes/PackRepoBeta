@@ -1,5 +1,5 @@
 {
-  "time": "1714154132813",
+  "time": "1725436986776",
   "flags": [
     {
       "key": "general",
@@ -174,7 +174,8 @@
         "show_branding_on_space",
         "show_branding_interval_seconds",
         "branding_fadeout_delay_ms"
-      ]
+      ],
+      "visible": false
     },
     {
       "key": "show_branding_on_space",
