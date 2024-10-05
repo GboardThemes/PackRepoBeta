@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:GboardThemes/PackRepoBeta.git",
-  "author": "Josua Lengwenath <lengwenath1@gmail.com>",
+  "author": "dertyp7214@users.noreply.github.com",
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.6",
