@@ -1,5 +1,5 @@
 {
-  "time": "1735079931296",
+  "time": "1735304425090",
   "props": [
     {
       "key": "ch_margins",
@@ -123,8 +123,8 @@
       "is_tab_or_fold": true
     },
     {
-      "key": "ch_margins_fold_landscape",
-      "title": "ch_margins_fold_landscape",
+      "key": "ch_margins_landscape_fold_landscape",
+      "title": "ch_margins_landscape_fold",
       "summary": "",
       "icon": "",
       "defaultValue": "",
